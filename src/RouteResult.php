@@ -140,7 +140,7 @@ class RouteResult implements MiddlewareInterface
     /**
      * Returns the matched params.
      *
-     * Guaranted to return an array, even if it is simply empty.
+     * Guaranteed to return an array, even if it is simply empty.
      */
     public function getMatchedParams(): array
     {
